@@ -74,7 +74,7 @@ def adding_matz
         }
      }
     matz_hash = {:yukihiro_matsumoto => {:known_for => "Ruby", :languages => ["LISP", "C"]}}
-    binding.pry
+    matz_hash.merge!(programmer_hash)
 end
 
 def changing_alan
